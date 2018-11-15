@@ -1,0 +1,254 @@
+body {
+	background: white;
+}
+.socmed {
+	text-align: right;
+	padding: 5px;
+	background: white;
+	overflow: auto;
+}
+.socmed li {
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	padding: 0;
+	font-size: 23px;
+}
+ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li:hover {
+	opacity: 0.5;
+}
+
+a:link {
+	text-decoration: none;
+}
+.button:hover {
+	background: black;
+	color: white;
+}
+#menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat (5,1fr);
+}
+.navbar {
+	display: inline-block;
+}
+.header {
+	padding: 50px;
+	background: #d3efde;
+}
+.logo {
+	text-align: center;
+}
+.logoimg {
+	height: 145px;
+	width: 145px;
+	border-radius: 100%;
+}
+.header h1 {
+	text-align: center;
+}
+.header p {
+	text-align: center;
+}
+.container {
+	display: grid;
+	text-align: center;
+	grid-gap: 8px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+.photo-container {
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+.article h2 {
+	font-size: 18px;
+	text-align: center;
+	word-wrap: break-word;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7em;
+	color: #101010;
+	font-weight: bold;
+}
+p {
+    font-size: 14px;
+	margin-bottom: 20px;
+	color: #666666;
+	letter-spacing: 0.9px;
+	font-family: "Roboto", serif;
+	word-wrap: break-word;
+}
+.box1 {
+	margin-left: 20px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	grid-column: 1/2;
+}
+.box2 {
+	text-align: center;
+	border: 1px solid #eaeaea;
+	grid-column: 2/3;
+}
+.box3 {
+	margin-left: 20px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	grid-column: 1/3;
+	grid-row: 2/3;
+}
+.box4 {
+	text-align: center;
+	border: 1px solid #eaeaea;
+	grid-column: 1/2;
+	grid-row: 3/4;
+	margin-left: 20px;
+}
+.box5 {
+	text-align: center;
+	border: 1px solid #eaeaea;
+	grid-column: 2/3;
+}
+#sidebar {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	text-align: center;
+	margin-right: 15px;
+	border: 1px solid #eaeaea;
+}
+#sidebar .widget {
+	padding: 30px;
+	display: block;
+}
+.widget .widget-heading h4 {
+    font-family: 'Poppins',arial;
+	font-size: 18px;
+	letter-spacing: 2px;
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	color: #101010;
+	word-wrap: break-word;
+	font-weight: bold;
+}
+.widget.about .photo-profile {
+	display: block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 20px auto;
+	border-radius: 100px;
+	text-align: center;
+}
+.widget-about .bio-profile {
+	display: block;
+}
+.widget.about .bio-profile .profile-name {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Poppins',serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #010101;
+    text-align: center;
+    text-transform: capitalize;
+}
+.widget.about .bio-profile .profile-job {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Poppins',arial;
+    font-size: 13px;
+    color: #939393;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.widget.about .bio-profile p{
+	font-size: 13px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+p {
+	margin-bottom; 20px;
+	color: #666666;
+	letter-spacing: 0.9px;
+	font-family: "Roboto", serif;
+	word-wrap: break-word;
+	text-align: center;
+}
+h5 {
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+.footer {
+	margin-top: 10px;
+	padding: 30px;
+	background: #d3efde;
+	grid-column: 1/4;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.navigation ul li {
+    margin: 5px 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+}
+.navigation .widget-heading h3 {
+    font-family: 'Poppins',arial;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navigation {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	padding: 30px;
+	margin-right: 15px;
+}
+.navigation ul li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #eaeaea;
+    letter-spacing: 2px;
+    font-style: normal;
+    text-decoration: none;
+    color: #101010;
+    font-family: 'Poppins';
+    display: block;
+	text-align: center;
+}
+.navigation li:hover {
+	opacity: 0.5;
+	color: #d3efde;
+}

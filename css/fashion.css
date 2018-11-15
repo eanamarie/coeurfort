@@ -1,0 +1,199 @@
+body {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 20px;
+	background:white: grey;
+}
+
+.Title {
+	padding: 10px;
+	background: pink;
+}
+
+h3, h4, h5 {
+	font-size: 20px;
+
+}
+
+.logo {
+	padding: 10px;
+	font-family: Tahoma;
+	text-align: center;
+	background: pink;
+	list-style: none;
+	color: white;
+	top-margin: 20px;
+	border: 2px white solid;
+	margin-bottom: 10px;
+}
+.title1 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 50px;
+	font-family: Harrington;
+	text-align: center;
+	grid-column: 1/2;
+}
+.title2 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 50px;
+	font-family: Harrington;
+	text-align: center;
+	grid-column: 3/4;
+}
+.logoimg {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+
+.main-header{
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: white;
+}
+
+a{
+	font-family: Magneto;
+	text-decoration: none;
+}
+
+.button{
+	background-color: #F08080;
+	color: white;
+	padding: 10px 25px;
+	box-shadow: 0 0 5px black;
+}
+
+.button:hover{
+	background: #FFEBCD;
+	color: black;
+}
+
+#main-menu{
+	margin-bottom: 10px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.circle{
+	text-align: center;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50;
+}
+
+.footer{
+	background: #B22222;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-family: lucida calligraphy;
+}
+
+.main-article{
+	font-family: goud stout;
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: 1fr;
+}
+
+.main-article-left p{
+	margin: 20px 0px 20px 0;
+}
+
+.main-article-left {
+	font-family: goud stout;
+	color: white;
+	margin-bottom: 10px;
+	background: #FF6347;
+	padding: 20px;
+	text-align: center;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr;
+	display: inline;
+}
+
+.main-article-left h3 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.main-article-right p{
+	margin: 20px 0px 20px 0;
+}
+
+.main-article-right {
+	font-family: goud stout;
+	color: white;
+	margin-bottom: 10px;
+	background: #A9A9A9;
+	padding: 20px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr;
+	display: inline;
+}
+
+.clothes p{
+	margin: 20px 0px 20px 0;
+}
+
+.clothes {
+	font-family: goud stout;
+	color: white;
+	margin-bottom: 10px;
+	background: #6495ED;
+	padding: 20px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr;
+	display: inline;
+}
+
+.lazy p{
+	margin: 20px 0px 20px 0;
+}
+
+.lazy {
+	font-family: goud stout;
+	color: white;
+	margin-bottom: 10px;
+	background: #DC143C;
+	padding: 20px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr;
+	display: inline;
+}
+
+.stunner p{
+	margin: 20px 0px 20px 0;
+}
+
+.stunner {	
+	font-family: goud stout;
+	color: white;
+	margin-bottom: 10px;
+	background: #708090;
+	padding: 50px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr;
+	display: inline;
+}
+

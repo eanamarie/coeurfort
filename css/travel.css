@@ -1,0 +1,268 @@
+body	{
+	background: #222629;
+}
+
+.social	{
+	background:pink;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-align:center;
+}
+
+#sites	{
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.main-header	{
+	background: #222629;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+
+
+.footer	{
+	background:#86C232 ;
+	padding: 5px;
+	text-align: center;
+	color: #222629;
+	margin-top: 40px;
+}
+
+#main-menu	{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(6,1fr);
+}
+
+.button	{
+	color: white;
+	background: #222629;
+	padding: 10px 25px;
+}
+
+.button:hover	{
+	color: #86C232;
+}
+
+a	{
+	text-decoration: none;
+	font-family: Lucida Calligraphy;
+}
+
+.Travel	{
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.Travel p	{
+	text-align: center;
+}
+
+.Title	{
+	color: black;
+	padding: 50px;
+	text-align: center;
+	font-size: 90;
+	font-family; Lucida Calligraphy;
+}
+
+.Title p 	{
+	font-family: Charlemagne Std;
+	font-size: 24;
+	color: #619825;
+}
+
+.social	{
+	color: white;
+	background: #222629;
+	padding: 10px;
+	border: 4px #619825 solid;
+	text-align: center;
+} 
+
+.social	p	{
+	font-family: MV Boli;
+	font-size: 14px;
+}
+
+
+ul	{
+	display: inline-block
+}
+
+li {
+	text-align: left;
+}
+
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+h4	{
+	color: #619825;
+}
+
+a	{
+	text-decoration: none;
+	color: #619825;
+}
+
+a:hover	{
+	color:white;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Hongkong	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 20px;
+}
+
+.one	{
+	background-image: url("../images/hongkong.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.one:hover	{
+	background-image: url("../images/hongkongh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Boracay	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+
+.two	{
+	background-image: url("../images/boracay.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.two:hover	{
+	background-image: url("../images/boracayh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Singapore	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+.three	{
+	background-image: url("../images/singapore.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.three:hover	{
+	background-image: url("../images/singaporeh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Palawan	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+.four	{
+	background-image: url("../images/palawan.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.four:hover	{
+	background-image: url("../images/palawanh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+
+.Indonesia	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+.five	{
+	background-image: url("../images/bali.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.five:hover	{
+	background-image: url("../images/balih.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+.Pangasinan	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+.six	{
+	background-image: url("../images/pangasinan.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.six:hover	{
+	background-image: url("../images/pangasinanh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+.Korea	{
+	text-align: center;
+	font-family: Cambria;
+	color: white;
+	border: 4px #619825 solid;
+	padding: 30px;
+}
+.seven	{
+	background-image: url("../images/korea.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.seven:hover	{
+	background-image: url("../images/koreah.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
